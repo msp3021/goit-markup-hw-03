@@ -1,54 +1,129 @@
-body {
-  background: #FFFFFF;
-  font-family: font-family: 'Roboto', sans-serif;
+•{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
 
+:root {
+  --main-blue:#2196F3;
+ 
+  --paragraph-description:#757575 ;
+  --font-black:#212121;
+--white:#ffffff;
+
+}
+
+
+
+body {
+  background: #FFFFFF;
+  font-family:'Roboto', sans-serif;
+}
+
+
 .logo{
-  color:#2196F3;
+  color:var(--main-blue);
   font-weight: 700;
   font-size: 26px;
-  line-height: 30.52;
-  font:'Raleway', sans-serif;
+  font family:'Raleway', sans-serif;
 }
 .logo2 {
   color:#FFFFFF;
   font:'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 30.52;
-
+  
 }
 
 .main-description{
   background:#2F303A ;
-
+  text-align:center;
+  padding:200px 452px 280px 452px ;
 }
-.button-description { 
-  background: #2196f3;
-  color:#FFFFFF;}
-h1{
+
+.text-main{
   color:#FFFFFF;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60;
+  line-height:1.36;
+  text-align: center ;
+  letter-spacing: 0.06em ;
+  text-transform: uppercase;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px
 
 }
 
+.button-description { 
+background-color: #2196F3;
+color:#ffffff;
+font-weight:700 ;
+font-size:16px;
+line-height:1.88;
+cursor: pointer;
+letter-spacing: 0.06em;
+text-align: center;
+min-width: 200px;
+border:none;
+border-radius: 4px;
+padding: 10px 42px ;
+}
+
+section{
+  padding-top:94px ;
+  padding-bottom: 94px;
+}
+
+
+
+  .container{
+    width:1200 ;
+    margin:215px ;
+    
+  }
+
 h3{
-color:#212121;
+color:var(--font-black);
 font-size: 18px;
-line-height: 36;
 font-weight: 700;
 }
 
 p{
-  color:#757575;
+  color:var(--paragraph-description);
   font-size: 16px;
-  font-weight: 400;
-  line-height: 30;
+}
+
+.lorem-ipsum-description{
+    color:var(--paragraph-description);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  }
+
+h4{ 
+  color: var(--font-black);
+  font-weight:700;
+  font-size: 14px;
  
+
+
+}
+.lorem-ipsum{
+  color: var(--font-black);
+  font-weight:700;
+  font-size: 14px;
+   letter-spacing:0.03em;
+  line-height:1.1;
+  margin-top: 0;
+  margin-bottom 10px;;
+
+
 
 
 }
@@ -57,28 +132,31 @@ p{
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  
   letter-spacing: 0.03em;
   background: #f5f4fa;
   border-radius: 4px;
-  color: #212121;
+  color:var(--font-black);
   border: #f5f4fa;
 }
+
 .button-link:hover,
 .button-link:focus{
   background: #2196f3;
   color:#FFFFFF;
-
 }
 
 .header-link{
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  
   letter-spacing: 0.02em;
 }
+a{
+  text-decoration:none ;
 
+}
 .header-link:hover,
 .header-link:focus{
   color:#2196f3
@@ -86,7 +164,6 @@ p{
 .header-contact {
   color: #757575;
   font-size: 14px;
-  line-height: 16.41;
   font-weight: 500;
   letter-spacing: 0.02em;
 
@@ -103,9 +180,16 @@ p{
 .adres-description
 {color: #FFFFFF;
   font-size: 14px;
-  line-height: 24;
-  font-weight: 400;
   letter-spacing: 0.03em;
-  font-style:normal; 
+  font-style: normal; 
 }
 
+.ul-description {
+  list-style: none;
+  margin-top: 0 ;
+margin-bottom: 0;
+padding: 0;
+display: flex;
+gap:40px;
+
+}
