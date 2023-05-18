@@ -79,9 +79,10 @@ section{
 
 
 
+
   .container{
-    width:1200 ;
-    margin:215px ;
+    width:1200px ;p
+    margin:0;
     
   }
 
@@ -122,12 +123,16 @@ h4{
   line-height:1.1;
   margin-top: 0;
   margin-bottom 10px;;
-
-
-
-
 }
 
+.what-we-do{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 200px;
+  padding:15px;
+
+}
 .button-link {
   cursor: pointer;
   font-weight: 500;
