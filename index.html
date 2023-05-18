@@ -22,36 +22,41 @@
     />
   </head>
   <body>
-    <header class="container">
-      <div class="logo-nav-mail">
-        <div class="logo-nav">
-          <h2><span class="logo">Web</span>Studio</h2>
+    <div class="border">
+      <header class="container">
+        <div class="logo-nav-mail">
+          <div class="logo-nav">
+            <h2><span class="logo">Web</span>Studio</h2>
 
-          <nav class="nav-description">
-            <a class="header-link" href="#">Agencja</a>
+            <nav class="nav-description">
+              <a class="header-link" href="#">Agencja</a>
 
-            <a class="header-link" href="./portfolio.html">Portfolio</a>
+              <a class="header-link" href="./portfolio.html">Portfolio</a>
 
-            <a class="header-link" href="#">Kontakt</a>
-          </nav>
+              <a class="header-link" href="#">Kontakt</a>
+            </nav>
+          </div>
+          <h3 class="mobile-mail">
+            <a class="header-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+
+            <a class="header-contact" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </h3>
         </div>
-        <h3 class="mobile-mail">
-          <a class="header-contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-
-          <a class="header-contact" href="tel:+48111111111">+48 111 111 111</a>
-        </h3>
-      </div>
-    </header>
+      </header>
+    </div>
 
     <main>
-      <section>
-        <div class="main-description">
-          <h1 class="text-main">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="button-description" type="button">Zamów usługe</button>
-        </div>
-      </section>
+      <div class="main-description">
+        <h1 class="text-main">
+          EFEKTYWNE ROZWIĄZANIA <br />
+          DLA WASZEGO BIZNESU
+        </h1>
+        <button class="button-description" type="button">Zamów usługe</button>
+      </div>
 
       <section>
         <div class="container">
@@ -174,19 +179,28 @@
     </main>
 
     <footer class="footer-description">
-      <h2><span class="logo">Web</span><span class="logo2">Studio</span></h2>
-      <address class="adres-description">
-        m. Warszawa, Aleje Jerozolimskie 21
-      </address>
+      <div class="container">
+        <h2 class="footer-logo">
+          <span class="logo">Web</span><span class="logo2">Studio</span>
+        </h2>
 
-      <p>
-        <a class="header-contact" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-      </p>
-      <p>
-        <a class="header-contact" href="tel:+48111111111">+48 111 111 111</a>
-      </p>
+        <address class="adres-description">
+          m. Warszawa, Aleje Jerozolimskie 21
+        </address>
+        <ul class="footer-contact">
+          <li>
+            <a class="header-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+
+          <li>
+            <a class="header-contact" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
