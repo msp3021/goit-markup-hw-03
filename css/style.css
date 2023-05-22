@@ -144,6 +144,7 @@ section {
   color: var(--font-black);
   font-weight: 700;
   font-size: 36px;
+  margin-top: 94px;
 }
 
 .button-link {
@@ -158,6 +159,8 @@ section {
   color: var(--font-black);
   border: #f5f4fa;
   padding: 6px 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
 
 .button-link:hover,
